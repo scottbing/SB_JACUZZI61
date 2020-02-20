@@ -23,4 +23,12 @@ public class Television implements ElectronicDevice{
     public void volumeDown() {
         System.out.println("TV Volume is " + volume);
     }
+
+    public void high() {
+        // ignore
+    }
+
+    public void medium() {
+        // ignore
+    }
 }

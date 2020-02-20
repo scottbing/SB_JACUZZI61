@@ -11,7 +11,7 @@ public class JacuzziHighCommand  implements Command {
 
     @Override
     public void execute() {
-        theDevice.on();
+        theDevice.high();
     }
 
     @Override

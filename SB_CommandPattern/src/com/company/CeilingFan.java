@@ -21,4 +21,12 @@ public class CeilingFan  implements ElectronicDevice{
     public void volumeDown() {
 
     }
+
+    public void high() {
+        // ignore
+    }
+
+    public void medium() {
+        // ignore
+    }
 }

@@ -16,14 +16,21 @@ public class Jacuzzi implements ElectronicDevice{
     public void setSpeed(int speed) {
         this.speed = speed;
     }
+
     // code to set fan speed High
-    public void high() { speed = HIGH; }
+    public void high() { speed = HIGH;
+        System.out.println("Jacuzzi is on high");
+    }
 
     // code to set fan speed Medium
-    public void medium() { speed = MEDIUM; }
+    public void medium() { speed = MEDIUM;
+        System.out.println("Jacuzzi is on Medium");
+    }
 
     // code to set fan speed LOw
-    public void low() { speed = LOW; }
+    public void low() { speed = LOW;
+        System.out.println("Jacuzzi is on Medium");
+    }
 
 
     @Override

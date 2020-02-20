@@ -9,7 +9,7 @@ public class JacuzziMediumCommand  implements Command {
 
     @Override
     public void execute() {
-        theDevice.on();
+        theDevice.medium();
     }
 
     @Override
